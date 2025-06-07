@@ -35,8 +35,8 @@ int main() {
     int graph[V][V] = {
         //      A,   B,   C,   D,   E,   F
         /*A*/ {   0,   6,   5, INF, INF, INF },
-        /*B*/ {   6,   0,   6,   4,   7, INF },
-        /*C*/ {   5,   6,   0,   3, INF,   6 },
+        /*B*/ {   6,   0,   2,   4,   7, INF },
+        /*C*/ {   5,   2,   0,   3, INF,   6 },
         /*D*/ { INF,   4,   3,   0,   2, INF },
         /*E*/ { INF,   7, INF,   2,   0,   4 },
         /*F*/ { INF, INF,   6, INF,   4,   0 }

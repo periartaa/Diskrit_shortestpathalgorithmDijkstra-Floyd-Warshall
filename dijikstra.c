@@ -78,8 +78,8 @@ int main() {
     // Inisialisasi graf berdasarkan gambar (matriks adjasensi)
     int graph[V][V] = {
         {0, 6, 5, 0, 0, 0},
-        {6, 0, 6, 4, 7, 0},
-        {5, 6, 0, 3, 0, 6},
+        {6, 0, 2, 4, 7, 0},
+        {5, 2, 0, 3, 0, 6},
         {0, 4, 3, 0, 2, 0},
         {0, 7, 0, 2, 0, 4},
         {0, 0, 6, 0, 4, 0}
